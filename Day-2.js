@@ -21,7 +21,7 @@
 // console.log(10 * 5);
 // console.log(10 / 3); // -> value will be in decimal format
 // console.log(10 % 3); // modulus -> remainder
-// console.log(3 ** 2); // exponential 10 ^ 2
+// console.log(3 ** 2); // exponential 3 ^ 2
 
 // Assignment operators
 // =

@@ -32,6 +32,6 @@
 // console.log(news.lastIndexOf("India", 3));
 // console.log(news.match(/india/gi)); // regex -> regular expression
 // console.log(news.repeat(3));
-// console.log(news.replace("India", "Pakistan"));
+// console.log(news.replace(/india/gi, "Pakistan"));
 // console.log(news.replaceAll("India", "Pakistan"));
 // console.log(news.search(/INdia/gi));

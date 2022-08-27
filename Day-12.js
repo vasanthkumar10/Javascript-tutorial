@@ -16,15 +16,15 @@
 
 // sub();
 
-let fname = "vasanth";
+// let fname = "vasanth";
 
-function add() {
-  console.log("logging....");
-  let sub = function () {
-    console.log("sub....");
-  };
+// function add() {
+//   console.log("logging....");
+//   let sub = function () {
+//     console.log("sub....");
+//   };
 
-  sub();
-}
-console.log(fname);
-console.log(add());
+//   sub();
+// }
+// console.log(fname);
+// console.log(add());

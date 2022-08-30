@@ -178,63 +178,53 @@
  * --------------------
  */
 
-function getUser(id) {
-  return new Promise(function (resolve, reject) {
-    setTimeout(function () {
-      console.log(`Reading data from database with ${id}...`);
-      let userName = "vasanth";
-      resolve(userName);
-      // reject("error in user");
-    }, 1000);
-  });
-}
+// function getUser(id) {
+//   return new Promise(function (resolve, reject) {
+//     setTimeout(function () {
+//       console.log(`Reading data from database with ${id}...`);
+//       let userName = "vasanth";
+//       resolve(userName);
+//       // reject("error in user");
+//     }, 1000);
+//   });
+// }
 
-function getRepositories(userName) {
-  return new Promise(function (resolve, reject) {
-    setTimeout(function () {
-      console.log(`getting repos of user ${userName}`);
-      let repos = ["calcultor", "portfolio"];
-      resolve(repos);
-      // reject("error in repos");
-    }, 2000);
-  });
-}
+// function getRepositories(userName) {
+//   return new Promise(function (resolve, reject) {
+//     setTimeout(function () {
+//       console.log(`getting repos of user ${userName}`);
+//       let repos = ["calcultor", "portfolio"];
+//       resolve(repos);
+//       // reject("error in repos");
+//     }, 2000);
+//   });
+// }
 
-function getCommits(repo) {
-  return new Promise(function (resolve, reject) {
-    setTimeout(function () {
-      console.log(`getting commits of repo ${repo}`);
-      let commits = ["initial commit", "first commit"];
-      resolve(commits);
-    }, 2000);
-  });
-}
+// function getCommits(repo) {
+//   return new Promise(function (resolve, reject) {
+//     setTimeout(function () {
+//       console.log(`getting commits of repo ${repo}`);
+//       let commits = ["initial commit", "first commit"];
+//       resolve(commits);
+//     }, 2000);
+//   });
+// }
 
-// syntactic sugar of promise
+// // syntactic sugar of promise
 
-async function gitHubAction() {
-  try {
-    const userName = await getUser(10);
-    console.log(userName);
-    const repos = await getRepositories(userName);
-    console.log(repos);
-    const commits = await getCommits(repos[0]);
-    console.log(commits);
-  } catch (err) {
-    console.log(err);
-  } finally {
-    console.log("finally");
-  }
-}
+// async function gitHubAction() {
+//   try {
+//     const userName = await getUser(10);
+//     console.log(userName);
+//     const repos = await getRepositories(userName);
+//     console.log(repos);
+//     const commits = await getCommits(repos[0]);
+//     console.log(commits);
+//   } catch (err) {
+//     console.log(err);
+//   } finally {
+//     console.log("finally");
+//   }
+// }
 
-gitHubAction();
-
-// steps ->
-// Enter the hotel
-// go the seat
-// order food
-// prepare food
-// serve food
-// eat food
-// pay the bill
-// walk away
+// gitHubAction();

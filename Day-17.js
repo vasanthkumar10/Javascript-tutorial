@@ -107,4 +107,18 @@
 // nums.splice(2, 0, 10, 20, 30, 40);
 // console.log(nums);
 
-console.log((123450).toLocaleString());
+// console.log((123450).toLocaleString());
+
+let nums = [1, 2, 3, 4, 5];
+
+// console.log(nums.filter((num) => num > 2));
+
+Array.prototype.myMap = function (callback) {
+  let arr = [];
+  for (let i = 0; i < [1, 2, 3, 4, 5].length; i++) {
+    arr.push(callback(this[i], i, this));
+  }
+  return arr;
+};
+
+console.log(nums.myMap((num) => num * 2));

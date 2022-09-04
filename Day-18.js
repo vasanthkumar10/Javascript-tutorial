@@ -45,32 +45,32 @@
 
 // constructor method
 // function Circle(radius, color) {
-//   console.log(this);
 //   this.radius = radius;
 //   this.area = function () {
 //     return 3.14 * this.radius * this.radius;
 //   };
 //   this.color = color;
+//   console.log(this);
 // }
 
-// let circle1 = new Circle(10);
-// let circle2 = new Circle(20);
+// let circle1 = new Circle(10, "red");
+// // let circle2 = new Circle(20);
 // console.log(circle1.radius, circle1.area());
-// console.log(circle2.radius, circle2.area());
+// // console.log(circle2.radius, circle2.area());
 
 // class -> syntactic sugar of function
-class Circle {
-  constructor(radius, color) {
-    this.radius = radius;
-    this.color = color;
-  }
+// class Circle {
+//   constructor(radius, color) {
+//     this.radius = radius;
+//     this.color = color;
+//   }
 
-  area() {
-    return 3.14 * this.radius * this.radius;
-  }
-}
+//   area() {
+//     return 3.14 * this.radius * this.radius;
+//   }
+// }
 
-let circle1 = new Circle(10, "red");
-let circle2 = new Circle(20, "green");
-console.log(circle1.radius, circle1.area());
-console.log(circle2.radius, circle2.area());
+// let circle1 = new Circle(10, "red");
+// let circle2 = new Circle(20, "green");
+// console.log(circle1.radius, circle1.area());
+// console.log(circle2.radius, circle2.area());

@@ -20,21 +20,21 @@
 
 // ternary operator -> condtion ? true statement : false statement
 
-// 1 > 5 ? console.log("greater") : console.log("smaller");
+// 10 > 5 ? console.log("greater") : console.log("smaller");
 
 // string
 
-// let firstName = "Vasanthkumar";
-// let lastName = "Vinayagam";
+let firstName = "Vasanthkumar";
+let lastName = "Vinayagam";
 // // // Vasanthkumar Vinayagam
-// // console.log(firstName + " " + lastName);
+// console.log(firstName + " " + lastName);
 
 // // 'Vasanthkumar' is a good boy
 
-// // console.log("'" + firstName + "'" + " is a good boy");
+// console.log("'" + firstName + "'" + " is a good boy");
 
 // // "Vasanthkumar" is a 'good' "boy"
-// // console.log('"' + firstName + '"' + " is a 'good' boy");
+// console.log('"' + firstName + '"' + " is a 'good' boy");
 
 // // string template literals -> multiple lines and easy concatenation
 // console.log(
@@ -50,7 +50,7 @@
 // console.log(5 + "5"); // 55
 // console.log(5 + 5 + "5"); // 105
 // console.log("5" + 5); // 55
-// console.log("5" + 5 + 5); // 55
+// console.log("5" + 5 + 5); // 555
 // console.log("5" + "5"); // 55
 // console.log("ab" + 5); // ab5
 // console.log("ab" + "5"); // ab5

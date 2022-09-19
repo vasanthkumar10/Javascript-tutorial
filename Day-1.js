@@ -5,7 +5,7 @@
 // datatypes -> primitive(in-built) and referrence data type
 // primitive / value datatype -> string, boolean, number, undefined, null
 
-// var fname = "vasanth";
+// var fname = "vasanth"; //function scope
 // var age = -28;
 // var amount = 100.5;
 // var isEligible = false;

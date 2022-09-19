@@ -105,6 +105,8 @@
 // console.log(1 > 2 > 3); // false
 // console.log(3 > 2 > 1); // false
 
+// console.log(5 + false); // 5 + 0
+// console.log(5 + true); // 5 + 1
 // console.log(console.log("vasanth"));
 
 // short circuiting

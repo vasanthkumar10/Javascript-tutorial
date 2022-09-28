@@ -68,12 +68,13 @@
 // console.log(5 ^ 3);
 // console.log(15 ^ 7);
 
-// left shift <<
+// left shift << ---> base * 2^n
 // console.log(5 << 1);
 // console.log(7 << 2);
 // console.log(7 << 12);
 
-// // right shift >>
-// console.log(5 >> 1);
+// // right shift >> ---> base / 2^n
+// console.log(2 >> 1);
 // console.log(8 >> 2);
 // console.log(7 >> 4);
+// console.log(2048 >> 3);

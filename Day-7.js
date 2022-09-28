@@ -135,3 +135,17 @@ console.log(iphonePro.name, pixel6a.name);
 // let vasanth = getPerson("vasanth", 25);
 // let sriram = getPerson("sriram", 22);
 // console.log(vasanth, sriram);
+
+// let obj = {
+//   name: "preethika",
+//   age: [1, 2, 1],
+//   college: {
+//     name: "anna univ",
+//     location: "chennai",
+//   },
+// };
+
+// type = "college";
+// collegeLocation = "location";
+
+// console.log(obj.name, obj.age, obj[type][collegeLocation]);

@@ -110,3 +110,50 @@
 // }
 
 // console.log(checkPalindrome("mam"));
+
+// let word1 = "What"; // vowels -> $
+// let word2 = "is your"; // consonants -> #
+// let word3 = "name"; // uppercase
+// let vowels = ["a", "e", "i", "o", "u"];
+// let modifiedWord1 = [];
+// let modifiedWord2 = [];
+
+// for (let i = 0; i < word1.length; i++) {
+//   if (vowels.includes(word1[i])) {
+//     modifiedWord1[i] = "$";
+//   } else {
+//     modifiedWord1[i] = word1[i];
+//   }
+// }
+// let modifiedWordStr1 = modifiedWord1.join("");
+
+// for (let i = 0; i < word2.length; i++) {
+//   if (vowels.includes(word2[i]) || word2[i] === " ") {
+//     modifiedWord1[i] = word2[i];
+//   } else {
+//     modifiedWord1[i] = "#";
+//   }
+// }
+// let modifiedWordStr2 = modifiedWord1.join("");
+// let modifiedWordStr3 = word3.toUpperCase();
+
+// console.log(`${modifiedWordStr1} ${modifiedWordStr2} ${modifiedWordStr3}`);
+
+// remove vowels
+// let givenStr = "vasanthkumar";
+// // vsnth
+// let vowels = ["a", "e", "i", "o", "u"];
+// let result = "";
+// for (let i = 0; i < givenStr.length; i++) {
+//   if (vowels.includes(givenStr[i])) {
+//     result = givenStr.replaceAll(givenStr[i], "");
+//   }
+// }
+// console.log(result);
+
+// let arr = [1, 1, 2, 3];
+// console.log([...new Set(arr)]);
+
+// reverse string
+let name = "sureshkumar";
+// ramukhserus

@@ -7,6 +7,11 @@
 //   let mul = num1 * num2;
 //   let quo = Math.floor(num1 / num2);
 //   let rem = num1 % num2;
+//   function test(num) {
+//     return 5;
+//   }
+
+//   test(10);
 
 //   console.log(sum, sub, mul, quo, rem);
 //   return 10;
